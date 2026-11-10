@@ -107,6 +107,27 @@ config.TOOLS = [
 		},
 	},
 	{
+		name: 'spray',
+		title: 'Spray Paint',
+		attributes: {
+			radius: {
+				value: 20,
+				min: 1,
+				max: 200,
+			},
+			density: {
+				value: 25,
+				min: 1,
+				max: 200,
+			},
+			dot_size: {
+				value: 2,
+				min: 1,
+				max: 20,
+			},
+		},
+	},
+	{
 		name: 'pick_color',
 		attributes: {
 			global: false,
